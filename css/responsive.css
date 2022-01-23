@@ -1,0 +1,159 @@
+:root {
+    --mainColor : #252734;
+    --secondaryColor : #333646;
+    --accentColor : #FF9100;
+}
+
+body {
+    background-color: var(--mainColor);
+    min-height: 900px;
+    font-family: 'ubuntu',sans-serif;
+}
+
+section h1 {
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+/* navbar */
+.nav-link.active {
+    color: var(--accentColor) !important;
+    font-weight: 700;
+}
+
+.nav-dark {
+    background-color: var(--secondaryColor) !important;
+    z-index: 10;
+    transition: .8s;
+}
+/* end navbar */
+
+/* hero */
+.color-accent{
+    color: var(--accentColor);
+}
+
+#hero {
+    color: #fff;
+    min-height: 100vh;
+    padding-top: 75px;
+}
+
+#hero h1 {
+    font-size: 3rem;
+}
+
+#hero h2 {
+    font-weight: 300;
+}
+
+#hero p {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+/* CTA */
+.btn-custom1 {
+    background-color: var(--accentColor);
+    text-align: center;
+    color: #fff;
+    min-width: 150px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.btn-custom1:hover {
+    box-shadow: 0 0 5px rgba(255, 166, 0, .8);
+}
+
+.cv {
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1r em;
+}
+
+.social-icon svg {
+    margin-right: .7em;
+    margin-bottom: 10px;
+}
+/* end hero */
+
+/* about */
+ hr{
+     width: 35%;
+     height: 5px;
+     color: var(--accentColor);
+     margin: 0 auto;
+     opacity: 100%;
+ }
+
+ #about {
+     min-height: 300px;
+     width: 100%;
+     background-color: var(--secondaryColor);
+     color : #fff;
+     padding-top: 80px;
+     padding-bottom: 80px;
+     margin-bottom: 80px;
+ }
+/* end about */
+
+/* skill */
+#skill {
+    min-height: 600px;
+    width: 100%;
+    color: #fff;
+}
+
+#skill img {
+    width: 12%;
+    margin: 10px;
+}
+
+#skill .card {
+    background-color: #414558;
+    height: 340px;
+}
+
+#skill .card:hover {
+    background-color: var(--accentColor);
+}
+
+.skill-content {
+    margin-top: 120px;
+}
+/* end skill */
+
+/* serifikat */
+#sertifikat {
+    margin-top: -170px;
+    padding-top: 270px;
+    padding-bottom: 80px;
+    background-color: var(--secondaryColor);
+}
+
+#sertifikat p, a {
+    color: #fff !important;
+    text-decoration: none;
+}
+
+#sertifikat img{
+    width: 49%;
+    padding: 10px;
+}
+/* end serifikat */
+
+/* gallery portfolio */
+#portfolio .container {
+    padding: 80px 10px;
+}
+/* end gallery portfolio */
+
+/* footer */
+
+
+.social-icon-footer svg {
+    margin-right: .7em;
+    margin-bottom: 10px;
+}
+/* end footer */
